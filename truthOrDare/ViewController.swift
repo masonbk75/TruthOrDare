@@ -9,7 +9,8 @@
 import UIKit
 import Firebase
 
-var buttonValue: String = "value"
+// hello there
+var buttonValue: String = "localChange"
 
 class ViewController: UIViewController {
     var ref: DatabaseReference!
