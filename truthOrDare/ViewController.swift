@@ -9,7 +9,6 @@
 import UIKit
 import Firebase
 
-// hello there
 var buttonValue: String = "localChange"
 
 class ViewController: UIViewController {
