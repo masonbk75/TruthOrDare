@@ -9,7 +9,7 @@
 import UIKit
 import Firebase
 
-var buttonValue: String = "value"
+var buttonValue: String = "remotevalue"
 
 class ViewController: UIViewController {
     var ref: DatabaseReference!
