@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5671F05A6A6DA7E6A436EC13 /* Pods_truthOrDare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A16940DBDCDCCA28503CA8DE /* Pods_truthOrDare.framework */; };
 		D6302C6A23219B5100CEA5D9 /* DBService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6302C6923219B5100CEA5D9 /* DBService.swift */; };
+		D6302C6C2321C53F00CEA5D9 /* AddPlayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6302C6B2321C53F00CEA5D9 /* AddPlayersViewController.swift */; };
 		D65E2588231460E1001D7633 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65E2587231460E1001D7633 /* AppDelegate.swift */; };
 		D65E258A231460E1001D7633 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65E2589231460E1001D7633 /* ViewController.swift */; };
 		D65E258D231460E1001D7633 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D65E258B231460E1001D7633 /* Main.storyboard */; };
@@ -17,12 +18,15 @@
 		D65E2595231460E3001D7633 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D65E2593231460E3001D7633 /* LaunchScreen.storyboard */; };
 		D65E259D23146453001D7633 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65E259C23146453001D7633 /* ResultViewController.swift */; };
 		D69BCFE323202DC000429B33 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D69BCFE223202DBF00429B33 /* GoogleService-Info.plist */; };
+		D6C5ED512322B6CF002D26A2 /* PushButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C5ED502322B6CF002D26A2 /* PushButton.swift */; };
+		D6C5ED532322C47E002D26A2 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C5ED522322C47E002D26A2 /* Colors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3EC6C7E299A8DBDBBB002155 /* Pods-truthOrDare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-truthOrDare.debug.xcconfig"; path = "Pods/Target Support Files/Pods-truthOrDare/Pods-truthOrDare.debug.xcconfig"; sourceTree = "<group>"; };
 		A16940DBDCDCCA28503CA8DE /* Pods_truthOrDare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_truthOrDare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6302C6923219B5100CEA5D9 /* DBService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBService.swift; sourceTree = "<group>"; };
+		D6302C6B2321C53F00CEA5D9 /* AddPlayersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlayersViewController.swift; sourceTree = "<group>"; };
 		D65E2584231460E1001D7633 /* truthOrDare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = truthOrDare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D65E2587231460E1001D7633 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D65E2589231460E1001D7633 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -33,6 +37,8 @@
 		D65E2596231460E3001D7633 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D65E259C23146453001D7633 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		D69BCFE223202DBF00429B33 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D6C5ED502322B6CF002D26A2 /* PushButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushButton.swift; sourceTree = "<group>"; };
+		D6C5ED522322C47E002D26A2 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		E03A222E850B70B0F2B0CAA1 /* Pods-truthOrDare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-truthOrDare.release.xcconfig"; path = "Pods/Target Support Files/Pods-truthOrDare/Pods-truthOrDare.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,15 +93,18 @@
 			isa = PBXGroup;
 			children = (
 				D65E2587231460E1001D7633 /* AppDelegate.swift */,
+				D6302C6B2321C53F00CEA5D9 /* AddPlayersViewController.swift */,
 				D65E2589231460E1001D7633 /* ViewController.swift */,
-				D65E258B231460E1001D7633 /* Main.storyboard */,
 				D65E259C23146453001D7633 /* ResultViewController.swift */,
+				D65E258B231460E1001D7633 /* Main.storyboard */,
+				D6302C6923219B5100CEA5D9 /* DBService.swift */,
 				D65E2591231460E3001D7633 /* Assets.xcassets */,
 				D65E2593231460E3001D7633 /* LaunchScreen.storyboard */,
 				D65E2596231460E3001D7633 /* Info.plist */,
 				D69BCFE223202DBF00429B33 /* GoogleService-Info.plist */,
 				D65E258E231460E1001D7633 /* truthOrDare.xcdatamodeld */,
-				D6302C6923219B5100CEA5D9 /* DBService.swift */,
+				D6C5ED502322B6CF002D26A2 /* PushButton.swift */,
+				D6C5ED522322C47E002D26A2 /* Colors.swift */,
 			);
 			path = truthOrDare;
 			sourceTree = "<group>";
@@ -258,11 +267,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6C5ED512322B6CF002D26A2 /* PushButton.swift in Sources */,
+				D6C5ED532322C47E002D26A2 /* Colors.swift in Sources */,
 				D65E258A231460E1001D7633 /* ViewController.swift in Sources */,
 				D6302C6A23219B5100CEA5D9 /* DBService.swift in Sources */,
 				D65E2588231460E1001D7633 /* AppDelegate.swift in Sources */,
 				D65E2590231460E1001D7633 /* truthOrDare.xcdatamodeld in Sources */,
 				D65E259D23146453001D7633 /* ResultViewController.swift in Sources */,
+				D6302C6C2321C53F00CEA5D9 /* AddPlayersViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

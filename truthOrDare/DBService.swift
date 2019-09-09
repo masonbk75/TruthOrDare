@@ -19,7 +19,7 @@ class DBService {
         getData(node: Node.dares, completion: completion)
     }
     
-    static func getTruth(completion: @escaping([String]) -> Void) {
+    static func getTruths(completion: @escaping([String]) -> Void) {
         getData(node: .truths, completion: completion)
     }
     
@@ -36,9 +36,14 @@ class DBService {
         }
     }
     
+    // why cant i  just skip these functions and go straight to saveData?
     
     static func saveDare(value: String) {
         saveData(node: .dares, value: value)
+    }
+    
+    static func saveTruth(value: String) {
+        saveData(node: .truths, value: value)
     }
     
     private static func saveData(node: Node, value: String) {
@@ -46,6 +51,7 @@ class DBService {
             .child(node.rawValue)
             .childByAutoId().setValue(value)
     }
+    
     
 }
 
